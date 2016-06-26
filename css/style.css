@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(/images/back.jpg) fixed 0 0;
+	background: url(images/back.jpg) fixed 0 0;
 	background-size: cover;
 	font-family: 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, tahoma, arial, simsun, 宋体;
 	color: #a7aeaf;
@@ -108,13 +108,13 @@ img:hover {
 }
 
 .info .date {
-	background: url("/images/subicon.png") no-repeat scroll 0 0;
+	background: url("images/subicon.png") no-repeat scroll 0 0;
 	background-position: 0 2px;
 	padding-left: 20px;
 }
 
 .info .hot {
-	background: url("/images/subicon.png") no-repeat scroll 0 0;
+	background: url("images/subicon.png") no-repeat scroll 0 0;
 	background-position: 0 -74px;
 	padding-left: 20px;
 }
