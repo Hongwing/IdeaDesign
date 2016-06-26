@@ -1,0 +1,130 @@
+.container {
+	width: 720px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(http://img.ph.126.net/d8Yn6uiGh7_caNcc3F1y6A==/5629514927375932817.jpg) fixed 0 0;
+	background-size: cover;
+	font-family: 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, tahoma, arial, simsun, 宋体;
+	color: #a7aeaf;
+}
+
+.page {
+	width: 600px;
+	margin: auto;
+	font-size: 0.6em;
+}
+
+#head {
+	text-align: center;
+}
+
+#header .nav {
+	border-color: #7f9397;
+}
+
+#header {
+	border: 4px double #7f9397;
+	border-width: 4px 0 4px 0;
+	padding: 25px 0 25px 0;
+	margin-top: 50px;
+}
+
+.list {
+	padding: 20px 0 25px;
+	border-bottom: 1px dotted #7f9397;
+}
+
+.list li {
+	list-style: none;
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+a {
+	color: rgba(255,255,255,0.95);
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 0 0 10px ;
+}
+
+#header img {
+	border-radius: 50%;
+	border: 6px solid rgba(255,255,255,0.15);
+}
+
+.img {
+	border: 6px solid rgba(255,255,255,0.15);
+}
+
+.size {
+	width: 600px;
+	height: 404px;
+}
+
+img:hover {
+	box-shadow: 0 0 10px rgba(255,255,255,0.75);
+}
+
+#header h1 {
+	font-size: 32px;
+	font-weight: normal;
+	font-style: italic;
+	letter-spacing: 4px;
+	line-height: 42px;
+	text-shadow: 0 0 5px ;
+}
+
+.post {
+	margin-top: 25px;
+	border-bottom: 1px dotted #7f9397;
+	padding-bottom: 30px;
+}
+
+.title {
+	margin: 0 0 15px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+.text > p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.info a {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.info .date {
+	background: url(http://img.ph.126.net/EmTTGNLkQreHZ09QfNyS7w==/5629514927375932815.png) no-repeat scroll 0 0;
+	background-position: 0 2px;
+	padding-left: 20px;
+}
+
+.info .hot {
+	background: url(http://img.ph.126.net/EmTTGNLkQreHZ09QfNyS7w==/5629514927375932815.png) no-repeat scroll 0 0;
+	background-position: 0 2px;
+	padding-left: 20px;
+}
+
+#foot {
+	text-align: center;
+}
+
+#foot a {
+	color: #a7aeaf;
+}
+
+.footer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
