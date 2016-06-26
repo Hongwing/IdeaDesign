@@ -12,7 +12,7 @@
 	}
 
 	function showLoading (selector) {
-		var html = "<div class'text-center'>";
+		var html = "<div class='text-center'>";
 		html += "<img src='images/load.gif' width=50 height=50></div>";
 		insertHtml(selector,html);
 	}
@@ -61,6 +61,7 @@
 			}
 				return finalHtml;
 	}
+
 
 	global.art = art;
 
