@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(http://img.ph.126.net/d8Yn6uiGh7_caNcc3F1y6A==/5629514927375932817.jpg) fixed 0 0;
+	background: url(/images/back.jpg) fixed 0 0;
 	background-size: cover;
 	font-family: 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, tahoma, arial, simsun, 宋体;
 	color: #a7aeaf;
@@ -17,7 +17,7 @@ body {
 	font-size: 0.6em;
 }
 
-#head {
+.head {
 	text-align: center;
 }
 
@@ -54,14 +54,17 @@ a:hover {
 	text-shadow: 0 0 10px ;
 }
 
-#header img {
+#header img{
 	border-radius: 50%;
 	border: 6px solid rgba(255,255,255,0.15);
 }
 
-.img {
+.imager {
+	width: 600px;
+	height: auto;
 	border: 6px solid rgba(255,255,255,0.15);
 }
+
 
 .size {
 	width: 600px;
@@ -105,16 +108,25 @@ img:hover {
 }
 
 .info .date {
-	background: url(http://img.ph.126.net/EmTTGNLkQreHZ09QfNyS7w==/5629514927375932815.png) no-repeat scroll 0 0;
+	background: url("/images/subicon.png") no-repeat scroll 0 0;
 	background-position: 0 2px;
 	padding-left: 20px;
 }
 
 .info .hot {
-	background: url(http://img.ph.126.net/EmTTGNLkQreHZ09QfNyS7w==/5629514927375932815.png) no-repeat scroll 0 0;
-	background-position: 0 2px;
+	background: url("/images/subicon.png") no-repeat scroll 0 0;
+	background-position: 0 -74px;
 	padding-left: 20px;
 }
+
+#main-content {
+	//text-align: center;
+	margin-top: 50px;
+}
+
+
+
+
 
 #foot {
 	text-align: center;
